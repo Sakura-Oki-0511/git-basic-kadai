@@ -1,0 +1,34 @@
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題>cd 00_Git-kadai
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai>mkdir git_challenge
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai>cd git_challenge
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>echo Hello, world! > hello_world.txt
+
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>git add hello_world.txt
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>git commit -m "Add hello_world.txt with 'Hello, World!' content"
+[main (root-commit) c15189a] Add hello_world.txt with 'Hello, World!' content
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>git log
+commit c15189a0b0524289d334bc93a2d68262ee60c8cb (HEAD -> main)
+Author: sakura <sakura66244@gmail.com>
+Date:   Sat Dec 14 13:28:31 2024 +0900
+
+    Add hello_world.txt with 'Hello, World!' content
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>echo こんにちは、世界！ >> hello_world.txt
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>git add hello_world.txt
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>git commit -m "Add 'こんにちは、世界！' to hello_world.txt"
+[main d73d5dc] Add 'こんにちは、世界！' to hello_world.txt
+ 1 file changed, 1 insertion(+)
+
+C:\Users\sakur\OneDrive\デスクトップ\テラコヤ\10_課題\00_Git-kadai\git_challenge>git log --oneline
+d73d5dc (HEAD -> main) Add 'こんにちは、世界！' to hello_world.txt
+c15189a Add hello_world.txt with 'Hello, World!' content
